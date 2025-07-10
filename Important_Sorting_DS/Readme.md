@@ -20,7 +20,7 @@ This repository contains implementations and a detailed comparison of popular so
 | **Selection Sort** | O(n²) / O(n²) / O(n²)                 | O(1)             | ❌ No  | ❌ No    | 🥉 4th            | Easy to implement, does minimal number of swaps                            | Always O(n²), slow regardless of input                                        |
 | **Merge Sort**     | O(n log n) / O(n log n) / O(n log n)  | O(n)             | ✅ Yes | ❌ No    | 🥈 2nd            | Consistent performance, stable, good for linked lists                      | Uses extra memory, not in-place                                               |
 | **Quick Sort**     | O(n log n) / O(n log n) / O(n²)       | O(log n)         | ❌ No  | ❌ No    | 🥇 1st            | Very fast on average, in-place sorting                                     | Not stable, can degrade to O(n²) without precautions                         |
-| **Tim Sort**       | O(n) / O(n log n) / O(n log n)        | O(n)             | ✅ Yes | ✅ Yes   | 🥇 1st (Real-World) | Built-in sort in Python & Java, very efficient for real-world data         | Complex to implement manually, uses extra memory                             |
+| **Tim Sort**       | O(n) / O(n log n) / O(n log n)        | O(n)             | ✅ Yes | ✅ Yes   | 🥇 1st (Real-World) | Built-in sort in python & Java, very efficient for real-world data         | Complex to implement manually, uses extra memory                             |
 
 ---
 
@@ -54,12 +54,12 @@ This repository contains implementations and a detailed comparison of popular so
 
 ## 📁 Repository Contents
 
-- `bubble_sort.py`
-- `insertion_sort.py`
-- `selection_sort.py`
-- `merge_sort.py`
-- `quick_sort.py`
-- `tim_sort.py`
+- `bubble_sort.ipynb`
+- `insertion_sort.ipynb`
+- `selection_sort.ipynb`
+- `merge_sort.ipynb`
+- `quick_sort.ipynb`
+- `tim_sort.ipynb`
 - `README.md` ← you're here!
 
 ---
